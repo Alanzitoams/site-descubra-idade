@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR DE IDADE</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+
+    </header>
+    <section>
+        <div>
+           <P>ANO DE NASCIMENTO:
+               <input type="number" name="txtano" id="txtano" mim="0"
+           </P>
+           <p>sexo:
+               <input type="radio" name="radsex" id="mas" checked>
+               <label type="for">MASCULINO</label>
+               <input type="radio" name="radsex" id="fem">
+               <label type="for">FEMININO</label>
+           </p> 
+           <p>
+               <input type="button" value="VERIFICAR" onclick="verificar()">
+            </p>
+
+        </div>
+        <div id="res">
+            <center>preecha os dados para ver o resultado</center>
+            <center><p><img src="imagens/tempo.jpg" alt="imagem do tempo"></p></center>
+
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; PORTAL DA MELHOR IDADE</p>
+
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
